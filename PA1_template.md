@@ -176,7 +176,7 @@ plot1 + geom_bar(stat="identity") +
     labs(title= "Total Number of Steps Taken Each Day")
 ```
 
-![](PA1_template_files/figure-markdown_github/unnamed-chunk-6-1.png)
+![](figure/unnamed-chunk-6-1.png)
 
 1.  Calculate and report the mean and median of the total number of steps taken per day
 
