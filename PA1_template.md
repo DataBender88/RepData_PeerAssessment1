@@ -225,7 +225,7 @@ plot(stepsPerInterval, type = "l", xlab = "Interval", ylab = "Average Steps")
 title(main = "Average Steps Taken by Interval")
 ```
 
-![](PA1_template_files/figure-markdown_github/unnamed-chunk-9-1.png)
+![](figure/unnamed-chunk-9-1.png)
 
 1.  Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 
@@ -283,7 +283,7 @@ ggplot(activityNAtoMean.steps, aes(x=date, y=steps)) +
     labs(x = "", y = "Steps (Imputed)", title = "Total Steps by Date (Imputed)")
 ```
 
-![](PA1_template_files/figure-markdown_github/unnamed-chunk-13-1.png)
+![](figure/unnamed-chunk-13-1.png)
 
 -   ...and Calculate and report the mean and median total number of steps taken per day.
 
@@ -377,4 +377,4 @@ plot(stepsWeekday, type = "l", main = "Weekday")
 plot(stepsWeekend, type = "l", main = "Weekend")
 ```
 
-![](PA1_template_files/figure-markdown_github/unnamed-chunk-18-1.png)
+![](figure/unnamed-chunk-18-1.png)
