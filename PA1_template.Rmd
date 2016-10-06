@@ -1,6 +1,7 @@
 ---
-title: "PA1_template.Rmd by John Broberg"
-output: html_document
+title: "PA1_template.Rmd"
+author: John Broberg
+output: md_document
 ---
 
 
